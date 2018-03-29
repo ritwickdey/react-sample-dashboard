@@ -1,0 +1,49 @@
+.bar {
+  position: fixed;
+  border-right: 0.2rem solid var(--off-white);
+  height: 100vh;
+  width: 7rem;
+}
+
+.top-right-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 6.5rem;
+  width: 7rem;
+  cursor: pointer;
+  border-right: 0.2rem solid var(--off-white);
+}
+
+.nav-container {
+  margin: 10rem 0;
+}
+
+.nav-item {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.2rem 0; 
+  margin: 2.4rem 0;
+  color: var(--light-black);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-item:hover {
+  background-color: var(--off-white);
+  color: var(--black);
+}
+
+.nav-item > .largeIcon {
+  font-size: 2.8rem;
+}
+
+.navItemSelected {
+  color: var(--blue);
+  border-right: 0.2rem solid var(--blue);
+}

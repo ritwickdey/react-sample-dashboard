@@ -13,6 +13,7 @@
   padding: 0 2rem;
   justify-content: space-around;
   align-items: center;
+  cursor: pointer;
   border-left: 0.2rem solid var(--off-white);
 }
 

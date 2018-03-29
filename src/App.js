@@ -11,8 +11,8 @@ class App extends Component {
     return (
       <div>
         <Topbar />
-        {/* <SideBar />
-        <Banner />
+        <SideBar />
+        {/* <Banner />
         <ContainPage /> */}
       </div>
     );
