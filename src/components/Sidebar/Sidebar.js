@@ -6,7 +6,7 @@ import styles from './Sidebar.module.css';
 const SideBar = props => (
   <div>
     <div styleName="top-right-icon">
-      <i class="material-icons">reorder</i>
+      <i className="material-icons">reorder</i>
     </div>
     <div styleName="bar">
       <div styleName="nav-container">

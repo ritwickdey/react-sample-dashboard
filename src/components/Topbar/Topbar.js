@@ -11,7 +11,7 @@ const Topbar = props => (
       </div>
       <div>
         <span styleName="user-name">Ritwick Dey</span>
-        <i class="material-icons icons-fix">keyboard_arrow_down</i>
+        <i className="material-icons icons-fix">keyboard_arrow_down</i>
       </div>
     </div>
   </div>
