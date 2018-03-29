@@ -38,3 +38,27 @@
 .right {
   float: right !important;
 }
+
+@media (max-width: 900px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 765px) {
+  html {
+    font-size: 6px;
+  }
+}
+
+@media (max-width: 630px) {
+  * {
+    visibility: hidden;
+  }
+  .no-view {
+    padding: 2rem;
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+}
