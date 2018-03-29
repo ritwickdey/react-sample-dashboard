@@ -1,8 +1,8 @@
 .bar {
   width: 100%;
   height: 6.5rem;
-  padding: 0 6rem;
-  border-bottom: 0.3rem solid var(--off-white);
+  padding: 0 7rem;
+  border-bottom: 0.2rem solid var(--off-white);
 }
 
 .bar-user-details {
@@ -10,7 +10,7 @@
   display: flex;
   width: 20rem;
   height: 100%;
-  padding: 0 2rem; 
+  padding: 0 2rem;
   justify-content: space-around;
   align-items: center;
   border-left: 0.2rem solid var(--off-white);
