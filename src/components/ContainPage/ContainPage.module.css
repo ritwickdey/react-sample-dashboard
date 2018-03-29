@@ -3,11 +3,12 @@
   display: flex;     
   background-color: var(--off-white2);
   padding: 5rem;
+  justify-content: space-between;
 }
 
 .sub-container {
-    flex: 8;
+    width: 70%;
 }
 .banner {
-    flex: 2;
+    width: 20%;
 }

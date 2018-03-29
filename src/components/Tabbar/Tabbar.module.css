@@ -1,0 +1,33 @@
+.container {
+  width: 100%;
+}
+
+.header {
+  font-size: 3.2rem;
+  font-weight: 400;
+  margin-bottom: 1.2rem;
+}
+
+.tab-bar {
+  width: 100%;
+  border-bottom: 0.1rem solid var(--light-black2);
+}
+
+.tab {
+  display: inline-block;
+  font-size: 1.6rem;
+  padding: 1rem 0.1rem;
+  margin: 0 1.4rem;
+  color: var(--light-black);
+}
+
+.selectedTab {
+  font-weight: bold;
+  color: inherit;
+  border-bottom: 0.15rem solid var(--blue);
+}
+
+.tab:first-child {
+  padding-left: 0;
+  margin-left: 0;
+}
