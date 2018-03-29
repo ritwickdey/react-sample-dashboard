@@ -1,0 +1,9 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    color: var(--light-black);
+}
+.header .icon {
+    vertical-align: middle;
+}
