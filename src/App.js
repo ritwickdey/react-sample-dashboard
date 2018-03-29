@@ -9,11 +9,16 @@ import ContainPage from './components/ContainPage/ContainPage';
 class App extends Component {
   render() {
     return (
-      <div>
-        <Topbar />
-        <SideBar />
-        {/* <Banner />
-        <ContainPage /> */}
+      <div className="main">
+        <div className="topbar">
+          <Topbar />
+        </div>
+        <div className="sidebar">
+          <SideBar />
+        </div>
+        <div className="container">
+          <ContainPage />
+        </div>
       </div>
     );
   }
