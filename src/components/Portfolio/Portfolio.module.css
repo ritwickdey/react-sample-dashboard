@@ -1,9 +1,15 @@
 .header {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     font-size: 1.2rem;
     color: var(--light-black);
 }
 .header .icon {
     vertical-align: middle;
+}
+
+.contain-body {
+    /* display: flex;
+    flex-wrap: wrap; */
 }

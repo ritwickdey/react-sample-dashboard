@@ -1,0 +1,25 @@
+.container {
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 0;
+  margin: 0.8rem 0;
+  background: #fff;
+  text-align: center;
+}
+
+.type-name {
+  flex: 1;
+  font-weight: bold;
+  text-align: left;
+}
+
+.date {
+  flex: 1;
+  color: var(--light-black);
+}
+
+.value {
+  flex: 1;
+  color: var(--blue);
+}
