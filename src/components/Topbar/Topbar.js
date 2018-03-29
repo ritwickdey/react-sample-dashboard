@@ -7,7 +7,7 @@ const Topbar = props => (
   <div styleName="bar">
     <div styleName="bar-user-details">
       <div styleName="user-dp">
-        <img src="./favicon.ico" alt="" />
+        <img src="https://ritwickdey.github.io/img/Profile-Pic-Ritwick-Dey.png" alt="My Pic" />
       </div>
       <div>
         <span styleName="user-name">Ritwick Dey</span>

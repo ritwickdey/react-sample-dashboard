@@ -18,3 +18,21 @@
   min-height: calc(100vh - 6.5rem);
   display: flex;
 }
+
+.btn {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5rem;
+  background: var(--blue);
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+}
+
+.left {
+  float: left !important;
+}
+
+.right {
+  float: right !important;
+}
