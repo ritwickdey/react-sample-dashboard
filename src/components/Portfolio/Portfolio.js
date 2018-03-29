@@ -14,14 +14,9 @@ const fakePortfolioData = [
   { type: 'Reallocate', date: '02 Mar 2017', value: '22' },
   { type: 'Distribution', date: '10 Mar 2017', value: '45' },
   { type: 'Other', date: '01 Mar 2017', value: '33' },
+  { type: 'Distribution', date: '10 Mar 2017', value: '45' },
   { type: 'Other', date: '01 Mar 2017', value: '33' },
-  { type: 'Other', date: '01 Mar 2017', value: '33' },
-  { type: 'Other', date: '01 Mar 2017', value: '33' },
-  { type: 'Other', date: '01 Mar 2017', value: '33' },
-  { type: 'Other', date: '01 Mar 2017', value: '33' },
-  { type: 'Other', date: '01 Mar 2017', value: '33' },
-  { type: 'Other', date: '01 Mar 2017', value: '33' },
-  { type: 'Other', date: '01 Mar 2017', value: '33' },
+  { type: 'Reallocate', date: '02 Mar 2017', value: '22' }
 ];
 
 const Portfolio = props => (
