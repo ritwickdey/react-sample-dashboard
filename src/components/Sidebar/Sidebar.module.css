@@ -9,13 +9,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   height: 6.5rem;
   width: 7rem;
   cursor: pointer;
+  background: #fff;
   border-right: 0.2rem solid var(--off-white);
+  border-bottom: 0.2rem solid var(--off-white);
 }
 
 .nav-container {
