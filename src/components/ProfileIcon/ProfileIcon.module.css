@@ -1,0 +1,9 @@
+.icon {
+  display: inline-block;
+  font-weight: normal;
+  line-height: 1;
+  padding: 1.2rem 1.4rem;
+  background-color: goldenrod;
+  border-radius: 50%;
+  color: #fff;
+}

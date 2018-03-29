@@ -42,7 +42,9 @@ const Portfolio = props => (
       </div>
     </div>
     <div styleName="contain-body">
-      {fakePortfolioData.map(protfolio => <PortfolioItem data={protfolio} />)}
+      {fakePortfolioData.map((protfolio, i) => (
+        <PortfolioItem key={i} data={protfolio} />
+      ))}
     </div>
   </div>
 );
