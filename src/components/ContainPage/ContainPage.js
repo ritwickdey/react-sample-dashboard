@@ -1,14 +1,21 @@
 import React from 'react';
+import CSSModules from 'react-css-modules';
+
+import styles from './ContainPage.module.css';
 
 import Portfolio from '../Portfolio/Portfolio';
 import Tabbar from '../Tabbar/Tabbar';
+import Banner from '../Banner/Banner';
 
 const ContainPage = props => (
-  <div>
-    ContainPage
-    <Tabbar />
-    <Portfolio />
+  <div styleName="container">
+    <div styleName="sub-container">
+      <Tabbar />
+    </div>
+    <div styleName="banner">
+      <Banner />
+    </div>
   </div>
 );
 
-export default ContainPage;
+export default CSSModules(ContainPage, styles);
