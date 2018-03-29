@@ -19,7 +19,7 @@
 }
 
 .nav-container {
-  margin: 10rem 0;
+  margin: 5rem 0;
 }
 
 .nav-item {
@@ -27,8 +27,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1.2rem 0; 
-  margin: 2.4rem 0;
+  padding: 1.6rem 0; 
+  margin: 1.2rem 0;
   color: var(--light-black);
   cursor: pointer;
   transition: all 0.2s ease-in-out;
