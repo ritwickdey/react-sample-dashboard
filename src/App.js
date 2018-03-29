@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import SideBar from './components/Sidebar/Sidebar';
@@ -11,10 +10,10 @@ class App extends Component {
   render() {
     return (
       <div>
-        <SideBar />
         <Topbar />
+        {/* <SideBar />
         <Banner />
-        <ContainPage />
+        <ContainPage /> */}
       </div>
     );
   }

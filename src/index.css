@@ -6,6 +6,22 @@
   box-sizing: border-box;
 }
 
+:root {
+  --off-white: #f6f6f6;
+  --black: #444;
+}
+
 html {
   font-size: 62.5%;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  color: var(--black);
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
+.material-icons.icons-fix {
+  vertical-align: text-bottom;
 }

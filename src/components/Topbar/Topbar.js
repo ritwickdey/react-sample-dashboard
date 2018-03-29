@@ -1,5 +1,20 @@
 import React from 'react';
+import CSSModules from 'react-css-modules';
 
-const TopBar = props => <div>Top Bar</div>;
+import styles from './Topbar.module.css';
 
-export default TopBar
+const Topbar = props => (
+  <div styleName="bar">
+    <div styleName="bar-user-details">
+      <div styleName="user-dp">
+        <img src="./favicon.ico" alt="" />
+      </div>
+      <div>
+        <span styleName="user-name">Ritwick Dey</span>
+        <i class="material-icons icons-fix">keyboard_arrow_down</i>
+      </div>
+    </div>
+  </div>
+);
+
+export default CSSModules(Topbar, styles);
